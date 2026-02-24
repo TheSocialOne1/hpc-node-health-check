@@ -1,2 +1,2 @@
-node,uptime,memory,disk
-localhost,ERROR,ERROR,ERROR
+node,uptime,memory,disk_used_pct
+localhost,"19:29  up 16:59, 2 users, load averages: 1.51 1.58 1.54",3931,33%
