@@ -29,7 +29,7 @@ def run_remote_command(node, command):
     if node in ("localhost", "127.0.0.1"):
         return run_command(command)
 
-    ssh_cmd = f"ssh -o BatchMode=yes -o ConnectTimeout=5 {node} '{command}'"
+    ssh_cmd = f"ssh -o BatchMode=yes -o ConnectTimeout=5 {node} '{command}' 2>/dev/null"
     return run_command(ssh_cmd)
 
 
