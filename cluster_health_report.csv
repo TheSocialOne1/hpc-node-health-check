@@ -1,2 +1,2 @@
-node,uptime,memory,disk_used_pct
-localhost,"19:29  up 16:59, 2 users, load averages: 1.51 1.58 1.54",3931,33%
+node,status,alerts,load_1,disk_used_pct,memory,uptime
+localhost,OK,,1.23,33%,3763,"19:34  up 17:04, 2 users, load averages: 1.23 1.38 1.45"
